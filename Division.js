@@ -4,9 +4,9 @@ class Division {
             isStatic: true
         }
 
+        this.body = Bodies.rectangle(x, y, this.width, this.height, options);
         this.width = width;
         this.height = height;
-        this.body = Bodies.rectangle(x, y, this.width, this.height, options);
         World.add(world, this.body);
     }
 
